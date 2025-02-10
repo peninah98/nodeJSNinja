@@ -7,3 +7,9 @@ Before we dive into platform properties let’s start with the most used propert
 fs.writeFile("./documents/blog2.txt", textfile, () => {
   console.log("File saved successfully")
 })
+
+
+// When the file is not there there it will create it directly and write the contebt
+fs.writeFile("./documents/new.txt", textfile + "💜💜💜💜💜", () => {
+  console.log("File saved successfully")
+})
