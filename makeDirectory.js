@@ -6,9 +6,13 @@ fs.mkdir("./assets", (error) => {
   console.log("folder successfully created")
 })
 
-fs.mkdir("./utils", (error) => {
+// first chech if the file does not exist yet
+if(!fs.existsSync("./utils")) {
+  fs.mkdir("./utils", (error) => {
   if (error) {
     console.error(error)
   }
   console.log("The utility folder was successfully created")
-})
+})  
+}
+
