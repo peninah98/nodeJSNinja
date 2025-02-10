@@ -12,3 +12,5 @@ fs.readFile("./documents/blogs.txt", (err, data) => {
     console.log(data.toString())
   }
 })
+
+console.log("This is the last lline and it has been not blocked")
