@@ -1,0 +1,2 @@
+Nodejs is the  Javasctipt runtime environment, meanis that it converts Javasctipt codes into machine codes. It's global object is not window object it is a global object.
+this conplile JavaScript codes  during run time using  V8 engine support. This is a global object that is a global object that is a global object that is a global object that is a global object that is
