@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
       console.log("Cannot read the file", err)
       res.end()
     } else {
-      res.write(data), res.end()
+       res.end(data)
     }
   })
 })
